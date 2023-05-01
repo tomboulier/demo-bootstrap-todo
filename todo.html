@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="icon" href="checked.ico"/>
+    
+    <title>ToDo App</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+    <div class="card-header">
+        <h1 class="text-center">My ToDo App</h1>
+    </div>
+    <div class="card-body">
+        <form method="post">
+            <div class="input-group mb-3">                
+                <input class="form-control" type="text" placeholder="Entrez ici une nouvelle tâche">         
+                <button type="submit" class="btn btn-primary btn-lg">AJOUTER</button>
+            </div>
+        </form>
+        <h4 class="bg-secondary text-light py-2 rounded text-center">Ma liste de Tâches </h4>
+
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-action">
+                <strike>Tâche complétée</strike>
+                <div class="float-end">
+                    <a href="" class="btn btn-sm btn-warning">Modifier</a>
+                    <a href="" class="btn btn-sm btn-danger">Supprimer</a>
+                </div>
+            </li>
+
+            <li class="list-group-item list-group-item-action">
+                Tâche à faire
+                <div class="float-end">
+                    <a href="" class="btn btn-sm btn-warning">Modifier</a>
+                    <a href="" class="btn btn-sm btn-danger">Supprimer</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+    </div>
+</body>
+</html>
